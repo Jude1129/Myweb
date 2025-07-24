@@ -2,17 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My First Web Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Web Project</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Hello, World! 🌍</h1>
-    <p id="dynamicText">Welcome to my first web page.</p>
-    <button onclick="changeText()">Click Me</button>
-  </div>
+  <header>
+    <h1>My Beautiful Website</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2 id="dynamicText">Welcome to my website!</h2>
+      <button onclick="changeText()">Click Me!</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 All rights reserved.</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
+
